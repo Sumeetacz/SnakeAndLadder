@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SnakeAndLadders
 {
-    internal class UC2_SnakeAndLadder
+    internal class UC3_snakeAndLadder
     {
         class Simulation
         {
@@ -47,7 +47,7 @@ namespace SnakeAndLadders
                 Console.WriteLine("Current Position of player is: {0} \n", Current_Place);
             }
 
-            static void Main()
+            static void Main(string[] args)
             {
                 Console.WriteLine("Snake and Ladder game played with single player at start position 0");
                 Console.WriteLine("Current Position of player is: 0");
